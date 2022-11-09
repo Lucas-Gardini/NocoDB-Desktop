@@ -1,0 +1,18 @@
+{
+	"name": "nocodb-desktop",
+	"version": "1.0.0",
+	"description": "A NocoDB alternative to use as a desktop app",
+	"main": "app.js",
+	"scripts": {
+		"start": "electron .",
+		"upgrade": "npm uninstall --save nocodb && npm install --save nocodb"
+	},
+	"author": "Lucas-Gardini",
+	"license": "MIT",
+	"devDependencies": {
+		"electron": "^21.2.2",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"nocodb": "^0.98.2"
+	}
+}
