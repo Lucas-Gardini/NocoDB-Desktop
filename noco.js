@@ -10,7 +10,6 @@ class NocoDB {
 
 			this.url = `http://localhost:${process.env.PORT}/dashboard`;
 		} catch (e) {
-			alert(e);
 			console.log(e);
 		}
 	}
